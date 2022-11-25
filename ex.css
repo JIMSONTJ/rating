@@ -1,0 +1,108 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+
+}
+body{
+    font-size: 15px;
+    background-color: rgb(36, 36, 44);
+    margin:1.5rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+.main-container,.thank-you{
+    background-color: rgb(31, 30, 30);
+    padding: 1.5rem;
+    border-radius: 0.625rem;
+    width: 400px;
+}
+
+
+button{
+    font-family: inherit;
+}
+ul{
+    list-style-type: none;
+}
+.main-container h1{
+    color:white;
+    margin:2rem 0 1rem;
+}
+.main-container p{
+    color:rgb(97, 96, 96);
+    margin-bottom: 1rem;
+}
+.main-container ul{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+}
+.main-container ul li button{
+    width: 3rem;
+    height:3rem;
+    border:none;
+    
+    border-radius: 50%;
+    color:rgb(39, 38, 38);
+}
+.main-container ul li button:hover{
+background-color: orange;
+}
+
+.main-container ul li button:focus{
+    background-color: rgb(138, 17, 17);
+}
+.btn-submit{
+    background-color:orangered;
+    width:100%;
+    padding:0.5rem 0 0.4rem;
+    border:none;
+    border-radius: 30px;
+    color:white;
+}
+.btn-submit:hover{
+    background-color: black;
+
+}
+
+.main-container img{
+    border-radius: 50%;
+}
+
+
+
+.thank-you p.gray{
+    color: orange;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 0.2rem 0.3rem;
+    font-size: 0.9rem;
+
+}
+
+.thank-you{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.thank-you h2{
+    color:white;
+    margin-bottom: 1rem;
+}
+.thank-you p{
+    color: beige;
+    margin-bottom: 2rem;
+}
+.hidden{
+    display:none;
+}
